@@ -1,0 +1,652 @@
+init
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Links to free software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* $color-text: #dedce5; */
+        /* Sakura.css v1.0.0
+ * ================
+ * Minimal css theme.
+ * Project: https://github.com/oxalorg/sakura
+ */
+        /* Body */
+        
+        html {
+            font-size: 62.5%;
+            font-family: serif;
+        }
+        
+        body {
+            font-size: 1.8rem;
+            line-height: 1.618;
+            max-width: 38em;
+            margin: auto;
+            color: #c9c9c9;
+            background-color: #222222;
+            padding: 13px;
+        }
+        
+        @media (max-width: 684px) {
+            body {
+                font-size: 1.53rem;
+            }
+        }
+        
+        @media (max-width: 382px) {
+            body {
+                font-size: 1.35rem;
+            }
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 1.1;
+            font-family: Verdana, Geneva, sans-serif;
+            font-weight: 700;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -ms-word-break: break-all;
+            word-break: break-word;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+        
+        h1 {
+            font-size: 2.35em;
+        }
+        
+        h2 {
+            font-size: 2.00em;
+        }
+        
+        h3 {
+            font-size: 1.75em;
+        }
+        
+        h4 {
+            font-size: 1.5em;
+        }
+        
+        h5 {
+            font-size: 1.25em;
+        }
+        
+        h6 {
+            font-size: 1em;
+        }
+        
+        small,
+        sub,
+        sup {
+            font-size: 75%;
+        }
+        
+        hr {
+            border-color: #ffffff;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        
+        a:hover {
+            color: #c9c9c9;
+            border-bottom: 2px solid #c9c9c9;
+        }
+        
+        ul {
+            padding-left: 1.4em;
+        }
+        
+        li {
+            margin-bottom: 0.4em;
+        }
+        
+        blockquote {
+            font-style: italic;
+            margin-left: 1.5em;
+            padding-left: 1em;
+            border-left: 3px solid #ffffff;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        /* Pre and Code */
+        
+        pre {
+            background-color: #4a4a4a;
+            display: block;
+            padding: 1em;
+            overflow-x: auto;
+        }
+        
+        code {
+            font-size: 0.9em;
+            padding: 0 0.5em;
+            background-color: #4a4a4a;
+            white-space: pre-wrap;
+        }
+        
+        pre>code {
+            padding: 0;
+            background-color: transparent;
+            white-space: pre;
+        }
+        /* Tables */
+        
+        table {
+            text-align: justify;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            padding: 0.5em;
+            border-bottom: 1px solid #4a4a4a;
+        }
+        /* Buttons, forms and input */
+        
+        input,
+        textarea {
+            border: 1px solid #c9c9c9;
+        }
+        
+        input:focus,
+        textarea:focus {
+            border: 1px solid #ffffff;
+        }
+        
+        textarea {
+            width: 100%;
+        }
+        
+        .button,
+        button,
+        input[type="submit"],
+        input[type="reset"],
+        input[type="button"] {
+            display: inline-block;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: #ffffff;
+            color: #222222;
+            border-radius: 1px;
+            border: 1px solid #ffffff;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        
+        .button[disabled],
+        button[disabled],
+        input[type="submit"][disabled],
+        input[type="reset"][disabled],
+        input[type="button"][disabled] {
+            cursor: default;
+            opacity: .5;
+        }
+        
+        .button:focus,
+        .button:hover,
+        button:focus,
+        button:hover,
+        input[type="submit"]:focus,
+        input[type="submit"]:hover,
+        input[type="reset"]:focus,
+        input[type="reset"]:hover,
+        input[type="button"]:focus,
+        input[type="button"]:hover {
+            background-color: #c9c9c9;
+            border-color: #c9c9c9;
+            color: #222222;
+            outline: 0;
+        }
+        
+        textarea,
+        select,
+        input[type] {
+            color: #c9c9c9;
+            padding: 6px 10px;
+            /* The 6px vertically centers text on FF, ignored by Webkit */
+            margin-bottom: 10px;
+            background-color: #4a4a4a;
+            border: 1px solid #4a4a4a;
+            border-radius: 4px;
+            box-shadow: none;
+            box-sizing: border-box;
+        }
+        
+        textarea:focus,
+        select:focus,
+        input[type]:focus {
+            border: 1px solid #ffffff;
+            outline: 0;
+        }
+        
+        input[type="checkbox"]:focus {
+            outline: 1px dotted #ffffff;
+        }
+        
+        label,
+        legend,
+        fieldset {
+            display: block;
+            margin-bottom: .5rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="usertext-body may-blank-within md-container " itemprop="text">
+        <div class="md">
+            <p>&nbsp;</p>
+
+            <p>Over 1000 upvotes:</p>
+
+            <ol>
+                <li>OnTheHub: Student free software etc.
+                    <a href="https://onthehub.com">https://onthehub.com</a>
+                </li>
+                <li>Google Maps: Navigation app -
+                    <a href="https://www.google.com/maps">https://www.google.com/maps</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[1]" title="press 1 to open link"></span>
+                    <br>
+                </li>
+                <li>Blender: 3D modeling software -
+                    <a href="https://www.blender.org/">https://www.blender.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[2]" title="press 2 to open link"></span>
+                    <br>
+                </li>
+                <li>VLC: Video player -
+                    <a href="https://www.videolan.org/index.html">https://www.videolan.org/index.html</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[3]" title="press 3 to open link"></span>
+                    <br>
+                </li>
+                <li>The Windows Snipping Tool: Screen capture tool -
+                    <a href="https://support.microsoft.com/en-us/help/4027213/windows-open-snipping-tool-and-take-a-screenshot">https://support.microsoft.com/en-us/help/4027213/windows-open-snipping-tool-and-take-a-screenshot</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[4]" title="press 4 to open link"></span>
+                    <br>
+                </li>
+                <li>Space Engine: Space exploration simulator -
+                    <a href="http://spaceengine.org/">http://spaceengine.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[5]" title="press 5 to open link"></span>
+                    <br>
+                </li>
+                <li>Wikipedia: Online encyclopedia -
+                    <a href="https://www.wikipedia.org/">https://www.wikipedia.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[6]" title="press 6 to open link"></span>
+                    <br>
+                </li>
+                <li>MuseScore: Music notation software -
+                    <a href="https://musescore.org/en">https://musescore.org/en</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[7]" title="press 7 to open link"></span>
+                    <br>
+                </li>
+                <li>Audacity: Audio editing software -
+                    <a href="https://www.audacityteam.org/">https://www.audacityteam.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[8]" title="press 8 to open link"></span>
+                    <br>
+                </li>
+                <li>Handbrake: video converter -
+                    <a href="https://handbrake.fr/">https://handbrake.fr/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[9]" title="press 9 to open link"></span>
+                    <br>
+                </li>
+                <li>Zotero: Reference manager -
+                    <a href="https://www.zotero.org/">https://www.zotero.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[10]" title="press 0 to open link"></span>
+                    <br>
+                </li>
+                <li>Desmos.com: Online Calculator -
+                    <a href="https://www.desmos.com/">https://www.desmos.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[11]" title="press . then 11 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Calibre: ebook manager -
+                    <a href="https://calibre-ebook.com/download">https://calibre-ebook.com/download</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[12]" title="press . then 12 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Notepad++: Text Editor -
+                    <a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[13]" title="press . then 13 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>stud.io: Lego simulator -
+                    <a href="https://studio.bricklink.com/v2/build/studio.page">https://studio.bricklink.com/v2/build/studio.page</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[14]" title="press . then 14 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Search Everything: Instant file search software -
+                    <a href="https://www.voidtools.com/">https://www.voidtools.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[15]" title="press . then 15 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>LaTeX: Document software -
+                    <a href="https://www.latex-project.org/">https://www.latex-project.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[16]" title="press . then 16 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>
+                    <a href="http://archive.org/:">http://archive.org/:</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[17]" title="press . then 17 and Enter to open link"></span> Contains music, movies, books, software, games, and webpages -
+                    <a href="http://archive.org/">http://archive.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[18]" title="press . then 18 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Linux/Apache/Postgres/Gcc: Various Linux based OS’s, webservers, compilers, etc. -
+                    <a href="https://www.linux.org/">https://www.linux.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[19]" title="press . then 19 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Discord: Chat and Communication software -
+                    <a href="https://discordapp.com/">https://discordapp.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[20]" title="press . then 20 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>OBS Studio: Streaming and Recording software -
+                    <a href="https://obsproject.com/">https://obsproject.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[21]" title="press . then 21 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Krita: Digital design -
+                    <a href="https://krita.org/en/">https://krita.org/en/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[22]" title="press . then 22 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>R: Statistics software -
+                    <a href="https://www.r-project.org/">https://www.r-project.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[23]" title="press . then 23 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>pfSense: Firewall software -
+                    <a href="https://www.pfsense.org/">https://www.pfsense.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[24]" title="press . then 24 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>FreeNAS: File server software -
+                    <a href="http://www.freenas.org/">http://www.freenas.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[25]" title="press . then 25 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Gimp: Digital design -
+                    <a href="https://www.gimp.org/">https://www.gimp.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[26]" title="press . then 26 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>OpenSCAD: 3D Model scripting software -
+                    <a href="http://www.openscad.org/">http://www.openscad.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[27]" title="press . then 27 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>This list -
+                    <a href="https://www.reddit.com/r/AskReddit/comments/7x639l/what_free_software_is_so_good_you_cant_believe/">https://www.reddit.com/r/AskReddit/comments/7x639l/what_free_software_is_so_good_you_cant_believe/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[28]" title="press . then 28 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Malwarebytes: Malware protection -
+                    <a href="https://www.malwarebytes.com/">https://www.malwarebytes.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[29]" title="press . then 29 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Unity: Game design software -
+                    <a href="https://unity3d.com/">https://unity3d.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[30]" title="press . then 30 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>
+                    <a href="https://www.draw.io/:">https://www.draw.io/:</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[31]" title="press . then 31 and Enter to open link"></span> Online diagram software -
+                    <a href="https://www.draw.io/">https://www.draw.io/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[32]" title="press . then 32 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Paint.NET: Image design -
+                    <a href="https://www.getpaint.net/">https://www.getpaint.net/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[33]" title="press . then 33 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Draftsight: Free CAD -
+                    <a href="https://www.3ds.com/products-services/draftsight-cad-software/free-download/">https://www.3ds.com/products-services/draftsight-cad-software/free-download/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[34]" title="press . then 34 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>7Zip: File archiving -
+                    <a href="http://www.7-zip.org/">http://www.7-zip.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[35]" title="press . then 35 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Plex: Media storage access -
+                    <a href="https://www.plex.tv/">https://www.plex.tv/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[36]" title="press . then 36 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Libre Office: Document editing suite -
+                    <a href="https://www.libreoffice.org/">https://www.libreoffice.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[37]" title="press . then 37 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>KeePass: Password manager -
+                    <a href="https://keepass.info/">https://keepass.info/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[38]" title="press . then 38 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>DaVinci Resolve: Video color correcting/editing -
+                    <a href="https://www.blackmagicdesign.com/products/davinciresolve/">https://www.blackmagicdesign.com/products/davinciresolve/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[39]" title="press . then 39 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Inkscape: Vector art software -
+                    <a href="https://inkscape.org/en/">https://inkscape.org/en/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[40]" title="press . then 40 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Google's Apps: Google’s document suite (Docs, Sheets, Gmail, etc) -
+                    <a href="https://www.google.com/">https://www.google.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[41]" title="press . then 41 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Duolingo: Language learning -
+                    <a href="https://www.duolingo.com/">https://www.duolingo.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[42]" title="press . then 42 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Darktable: Photo workflow a la lightroom -
+                    <a href="https://www.musicpd.org/">https://www.musicpd.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[43]" title="press . then 43 and Enter to open link"></span> and
+                    <a href="https://www.darktable.org/">https://www.darktable.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[44]" title="press . then 44 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>MPD/Mopidy: F/OSS music player daemon -
+                    <a href="https://www.mopidy.com/">https://www.mopidy.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[45]" title="press . then 45 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Doom shareware: A classic game - a 3.5' floppy disk
+                    <br>
+                </li>
+            </ol>
+
+            <p>&nbsp;</p>
+
+            <p>Over 150 upvotes:</p>
+
+            <ol>
+                <li>fxSolver/Cymath/Mathway - Math/engineering/chemistry problem solving -
+                    <a href="https://www.fxsolver.com/">https://www.fxsolver.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[46]" title="press . then 46 and Enter to open link"></span> and
+                    <a href="https://www.cymath.com/">https://www.cymath.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[47]" title="press . then 47 and Enter to open link"></span> and
+                    <a href="https://www.mathway.com/Algebra">https://www.mathway.com/Algebra</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[48]" title="press . then 48 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Recuva: Restores deleted files -
+                    <a href="https://www.ccleaner.com/recuva">https://www.ccleaner.com/recuva</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[49]" title="press . then 49 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Python: A programming language for quickly writing scripts -
+                    <a href="https://www.python.org/">https://www.python.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[50]" title="press . then 50 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>foobar2000: Freeware audio player -
+                    <a href="https://www.foobar2000.org/">https://www.foobar2000.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[51]" title="press . then 51 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Robin Hood: Stock trading app -
+                    <a href="https://www.robinhood.com/">https://www.robinhood.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[52]" title="press . then 52 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Flux: Day/Night cycle on monitor color/brightness -
+                    <a href="https://justgetflux.com/">https://justgetflux.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[53]" title="press . then 53 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Fusion 360: Free 3D CAD/CAM design software -
+                    <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[54]" title="press . then 54 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Steam: Platform for game distribution -
+                    <a href="http://store.steampowered.com/">http://store.steampowered.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[55]" title="press . then 55 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Shazam: App that tells you what song is playing -
+                    <a href="https://www.shazam.com/">https://www.shazam.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[56]" title="press . then 56 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Audio Router: Sound routing -
+                    <a href="https://github.com/audiorouterdev/audio-router">https://github.com/audiorouterdev/audio-router</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[57]" title="press . then 57 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Arduino: Open-source electronics platform (software is free) -
+                    <a href="https://www.arduino.cc/">https://www.arduino.cc/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[58]" title="press . then 58 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>LMMS: Music studio -
+                    <a href="https://lmms.io/">https://lmms.io/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[59]" title="press . then 59 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Kodi: Entertainment center software -
+                    <a href="https://kodi.tv/">https://kodi.tv/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[60]" title="press . then 60 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Git: Version control system -
+                    <a href="https://git-scm.com/">https://git-scm.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[61]" title="press . then 61 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>REAPER: Audio workstation -
+                    <a href="https://www.reaper.fm/">https://www.reaper.fm/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[62]" title="press . then 62 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Greenshot: Print screen tool -
+                    <a href="http://getgreenshot.org/">http://getgreenshot.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[63]" title="press . then 63 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Irfanview: Image viewer, editor, organiser and converter -
+                    <a href="http://www.irfanview.com/">http://www.irfanview.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[64]" title="press . then 64 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>TeamViewer: Remote desktop software -
+                    <a href="https://www.teamviewer.us/">https://www.teamviewer.us/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[65]" title="press . then 65 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Firefox: Web browser -
+                    <a href="https://www.mozilla.org/en-US/firefox/new/">https://www.mozilla.org/en-US/firefox/new/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[66]" title="press . then 66 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Alarm Clock on Cell Phones: Alarm clock on cell phones - On your cell phone
+                    <br>
+                </li>
+                <li>Wireshark: Open source packet analyze -
+                    <a href="https://www.wireshark.org/">https://www.wireshark.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[67]" title="press . then 67 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Disk Fan: Visually see how much space is being used on a volume -
+                    <a href="http://www.diskspacefan.com/">http://www.diskspacefan.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[68]" title="press . then 68 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Beyond Compare: Compare two files/directories: whole tree's and directories -
+                    <a href="https://www.scootersoftware.com/">https://www.scootersoftware.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[69]" title="press . then 69 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>VNCServer/Viewer: Remote desktop software -
+                    <a href="https://www.realvnc.com/en/connect/download/vnc/">https://www.realvnc.com/en/connect/download/vnc/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[70]" title="press . then 70 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Ubuntu: A Linux OS -
+                    <a href="https://www.ubuntu.com/">https://www.ubuntu.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[71]" title="press . then 71 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>WinDirStat: Graphical disk usage analyzer -
+                    <a href="https://windirstat.net/">https://windirstat.net/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[72]" title="press . then 72 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Oracle VirtualBox: Open-source hypervisor -
+                    <a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[73]" title="press . then 73 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>PuTTy: An all in one protocol terminal -
+                    <a href="https://www.chiark.greenend.org.uk/%7Esgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[74]" title="press . then 74 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Visual Studio Code: Code editor -
+                    <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[75]" title="press . then 75 and Enter to open link"></span>
+                    <br>
+                </li>
+                <li>Reddit: This website -
+                    <a href="https://www.reddit.com/">https://www.reddit.com/</a>
+                    <span class="noCtrlF keyNavAnnotation" data-text="[76]" title="press . then 76 and Enter to open link"></span>
+                    <br>
+                </li>
+            </ol>
+
+            <p>&nbsp;</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
